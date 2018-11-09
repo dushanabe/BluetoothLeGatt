@@ -1,0 +1,214 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Resume - Start Bootstrap Theme</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="vendor/devicons/css/devicons.min.css" rel="stylesheet">
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/resume.min.css" rel="stylesheet">
+</head>
+
+<body id="page-top">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">
+            <span class="d-block d-lg-none">ScComponents</span>
+            <span class="d-none d-lg-block">
+                <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/jpg/example_1.jpg" alt="">
+            </span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#experience">Android Studio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#education">Eclipse</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#use">How to use</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="docs/reference/com/sccomponents/gauges/GR004/GR004.html" target="_blank">Documentation</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container-fluid p-0">
+
+        <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
+            <div class="my-auto">
+                <h1 class="mb-0">
+                    Gauges
+                    <span class="text-primary">Reality GR004</span>
+                </h1>
+                <div class="subheading mb-5">ScComponents for Android</div>
+                <div class="mb-5">
+                    Gauges are a powerful way to display velocity, status, or simple measurements.
+                    This library use the ScGauges library and allow to customize the gauges in every parts.
+                    The gauges is touch response and you can use it also as seek-bar.
+                    You can use every kind of values, integer or decimal and define the label/values format.
+                    <br />
+                    <br />
+                    Some main cusomization than can be reached easily from the GR004 class are:
+                    <ul>
+                        <li>Texts</li>
+                        <li>Font, size and label/values format</li>
+                        <li>Ticks: major and minor</li>
+                        <li>Values: current, min and max</li>
+                        <li>...</li>
+                    </ul>
+                    Download now the demo from Google play store and try all its potential.
+                    <a href="https://play.google.com/store/apps/details?id=com.sccomponents.gaugesreality" target="_blank" style="display: block;">
+                        <img class="img-fluid mx-auto mb-2" src="img/jpg/play_store.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
+            <div class="my-auto">
+                <h2 class="mb-5">Import the library in Android Studio</h2>
+
+                <div class="resume-item d-flex flex-column flex-md-row mb-5">
+                    <div class="resume-content mr-auto">
+                        <div class="subheading mb-3">1) Locate the .AAR file inside the root/library folder.</div>
+                        <div class="subheading mb-3">2) Right click on your project and select <strong>"Open Module Settings"</strong>.</div>
+                        <p>
+                            <img class="img-fluid mx-auto mb-2" src="img/png/as_step_1.png" alt="">
+                        </p>
+                        <div class="subheading mb-3">3) Click the <strong>ADD (+)</strong> button in the top left corner of window to add a new module.</div>
+                        <p>
+                            <img class="img-fluid mx-auto mb-2" src="img/png/as_step_2.png" alt="">
+                        </p>
+                        <div class="subheading mb-3">4) Select <strong>"Import .JAR</strong> or <strong>.AAR Package"</strong> and click the <strong>"Next"</strong> button.</div>
+                        <p>
+                            <img class="img-fluid mx-auto mb-2" src="img/png/as_step_3.png" alt="">
+                        </p>
+                        <div class="subheading">5) Keep the app's module selected and click on the <strong>Dependencies</strong> pane to add the new module as a dependency.</div>
+                        <div class="mb-3">
+                            <span class="text-warning">NOTE:</span> in some case Android Studio fail to update the "settings.gradle" file.
+                            If happen you'll not see the libraries listed when you press on the "+" button. 
+                            To fix this issue is enough to open the <strong>"settings.gradle"</strong> file and manually add the libraries references.
+                            <strong>For example</strong>, if you are importing the libraries GR004 and GR008 in your app, inside your "settings.gradle" file you should have something like: 
+                            <code>include ':app', ':GR004', ':GR008'</code>.
+                        </div>
+                        <p>
+                            <img class="img-fluid mx-auto mb-2" src="img/png/as_step_4.png" alt="">
+                        </p>
+                        <div class="subheading">
+                            6) If you have some problems or just want see a well formatted example app with imported libraries please download our "example" from the link:
+                            <a href="http://www.sccomponents.com/SimpleTest.zip" target="_blank">SIMPLE APPLICATION EXAMPLE</a>  
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
+            <div class="my-auto">
+                <h2 class="mb-5">Import the library in Eclipse</h2>
+
+                <div class="resume-item d-flex flex-column flex-md-row mb-5">
+                    <div class="resume-content mr-auto">
+                        <p>
+                            It is not possible to import directly an aar file into eclispe. The AAR is handled specifically by Android Studio through the Android gradle plugin.
+                            <br />
+                            However, there are several way to import them manually inside eclipse.
+                        </p>
+                        <div class="subheading mb-3">1) Locate the .AAR file inside the root/library folder.</div>
+                        <div class="subheading mb-3">2) Rename the .aar in .zip and extract it.</div>
+                        <div class="subheading mb-3">3) Inside the folder, you will find the resources and a class.jar.</div>
+                        <div class="subheading mb-3">4) Copy these files inside Eclipse and done.</div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="use">
+            <div class="my-auto">
+                <h2 class="mb-5">How to use the library</h2>
+
+                <div class="resume-item d-flex flex-column flex-md-row mb-5">
+                    <div class="resume-content mr-auto" style="width: 100%;">
+                        <h3 class="mb-0">
+                            Example 1:
+                        </h3>
+                        <div class="subheading mb-3">Flat using</div>
+                        <table class="table table-condensed">
+                            <thead>
+                                <tr>
+                                    <th>XML</th>
+                                    <th></th>
+                                    <th>Code</th>
+                                    <th>Render</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+<pre>
+&lt;com.sccomponents.gauges.gr004.GR004
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" /&gt;
+</pre>
+                                    </td>
+                                    <td>OR</td>
+                                    <td>
+<pre>
+GR004 gauge = new GR004(this);
+</pre>
+                                    </td>
+                                    <td>
+                                        <img class="img-fluid mx-auto mb-2" src="img/jpg/example_1.jpg" alt="">
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/resume.min.js"></script>
+
+</body>
+
+</html>

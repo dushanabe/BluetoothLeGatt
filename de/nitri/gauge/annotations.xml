@@ -1,0 +1,5 @@
+<root>
+    <item name='de.nitri.gauge.Gauge'>
+        <annotation name='java.lang.Deprecated' />
+    </item>
+</root>
