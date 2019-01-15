@@ -1706,7 +1706,6 @@ public final class R {
      */
     public static final int sccLabelPosition=0x7f0200e0;
     /**
-     * LABEL
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
@@ -1757,7 +1756,6 @@ public final class R {
      */
     public static final int sccMinorTicks=0x7f0200ea;
     /**
-     * NOTCHES
      * <p>May be an integer value, such as "<code>100</code>".
      */
     public static final int sccNotches=0x7f0200eb;
@@ -1853,7 +1851,6 @@ public final class R {
      */
     public static final int sccNotchesWidthsMode=0x7f0200f6;
     /**
-     * POINTER
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
@@ -2010,7 +2007,6 @@ public final class R {
      */
     public static final int sccProgressRoundedCap=0x7f020109;
     /**
-     * PROGRESS
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -2054,7 +2050,6 @@ public final class R {
      */
     public static final int sccShowLabels=0x7f02010f;
     /**
-     * OPTIONS
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
@@ -2065,7 +2060,6 @@ public final class R {
      */
     public static final int sccSnapToTicks=0x7f020111;
     /**
-     * STROKE
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
@@ -2191,13 +2185,11 @@ public final class R {
      */
     public static final int sccTextPosition=0x7f020120;
     /**
-     * TEXT
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
     public static final int sccTextTokens=0x7f020121;
     /**
-     * VALUES
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
     public static final int sccValue=0x7f020122;
@@ -7671,7 +7663,7 @@ public final class R {
      * <tr><td><code>{@link #GR004_sccShowLabels com.example.android.bluetoothlegatt:sccShowLabels}</code></td><td></td></tr>
      * <tr><td><code>{@link #GR004_sccSnapToTicks com.example.android.bluetoothlegatt:sccSnapToTicks}</code></td><td></td></tr>
      * <tr><td><code>{@link #GR004_sccText com.example.android.bluetoothlegatt:sccText}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GR004_sccValue com.example.android.bluetoothlegatt:sccValue}</code></td><td>VALUES</td></tr>
+     * <tr><td><code>{@link #GR004_sccValue com.example.android.bluetoothlegatt:sccValue}</code></td><td></td></tr>
      * </table>
      * @see #GR004_sccAnimDuration
      * @see #GR004_sccDoubleBuffering
@@ -7830,9 +7822,8 @@ public final class R {
      */
     public static final int GR004_sccText=13;
     /**
-     * <p>
-     * @attr description
-     * VALUES
+     * <p>This symbol is the offset where the {@link com.example.android.bluetoothlegatt.R.attr#sccValue}
+     * attribute's value can be found in the {@link #GR004} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
@@ -9175,10 +9166,10 @@ public final class R {
      * <tr><td><code>{@link #ScGauge_sccLabelFormat com.example.android.bluetoothlegatt:sccLabelFormat}</code></td><td></td></tr>
      * <tr><td><code>{@link #ScGauge_sccLabelLinked com.example.android.bluetoothlegatt:sccLabelLinked}</code></td><td></td></tr>
      * <tr><td><code>{@link #ScGauge_sccLabelPosition com.example.android.bluetoothlegatt:sccLabelPosition}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ScGauge_sccLabelText com.example.android.bluetoothlegatt:sccLabelText}</code></td><td>LABEL</td></tr>
+     * <tr><td><code>{@link #ScGauge_sccLabelText com.example.android.bluetoothlegatt:sccLabelText}</code></td><td></td></tr>
      * <tr><td><code>{@link #ScGauge_sccLabelUnderlined com.example.android.bluetoothlegatt:sccLabelUnderlined}</code></td><td></td></tr>
      * <tr><td><code>{@link #ScGauge_sccLowValue com.example.android.bluetoothlegatt:sccLowValue}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ScGauge_sccNotches com.example.android.bluetoothlegatt:sccNotches}</code></td><td>NOTCHES</td></tr>
+     * <tr><td><code>{@link #ScGauge_sccNotches com.example.android.bluetoothlegatt:sccNotches}</code></td><td></td></tr>
      * <tr><td><code>{@link #ScGauge_sccNotchesColor com.example.android.bluetoothlegatt:sccNotchesColor}</code></td><td></td></tr>
      * <tr><td><code>{@link #ScGauge_sccNotchesColors com.example.android.bluetoothlegatt:sccNotchesColors}</code></td><td></td></tr>
      * <tr><td><code>{@link #ScGauge_sccNotchesColorsMode com.example.android.bluetoothlegatt:sccNotchesColorsMode}</code></td><td></td></tr>
@@ -9190,7 +9181,7 @@ public final class R {
      * <tr><td><code>{@link #ScGauge_sccNotchesWidth com.example.android.bluetoothlegatt:sccNotchesWidth}</code></td><td></td></tr>
      * <tr><td><code>{@link #ScGauge_sccNotchesWidths com.example.android.bluetoothlegatt:sccNotchesWidths}</code></td><td></td></tr>
      * <tr><td><code>{@link #ScGauge_sccNotchesWidthsMode com.example.android.bluetoothlegatt:sccNotchesWidthsMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ScGauge_sccPointerColor com.example.android.bluetoothlegatt:sccPointerColor}</code></td><td>POINTER</td></tr>
+     * <tr><td><code>{@link #ScGauge_sccPointerColor com.example.android.bluetoothlegatt:sccPointerColor}</code></td><td></td></tr>
      * <tr><td><code>{@link #ScGauge_sccPointerColors com.example.android.bluetoothlegatt:sccPointerColors}</code></td><td></td></tr>
      * <tr><td><code>{@link #ScGauge_sccPointerColorsMode com.example.android.bluetoothlegatt:sccPointerColorsMode}</code></td><td></td></tr>
      * <tr><td><code>{@link #ScGauge_sccPointerHaloAlpha com.example.android.bluetoothlegatt:sccPointerHaloAlpha}</code></td><td></td></tr>
@@ -9209,12 +9200,12 @@ public final class R {
      * <tr><td><code>{@link #ScGauge_sccProgressColorsMode com.example.android.bluetoothlegatt:sccProgressColorsMode}</code></td><td></td></tr>
      * <tr><td><code>{@link #ScGauge_sccProgressPosition com.example.android.bluetoothlegatt:sccProgressPosition}</code></td><td></td></tr>
      * <tr><td><code>{@link #ScGauge_sccProgressRoundedCap com.example.android.bluetoothlegatt:sccProgressRoundedCap}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ScGauge_sccProgressSize com.example.android.bluetoothlegatt:sccProgressSize}</code></td><td>PROGRESS</td></tr>
+     * <tr><td><code>{@link #ScGauge_sccProgressSize com.example.android.bluetoothlegatt:sccProgressSize}</code></td><td></td></tr>
      * <tr><td><code>{@link #ScGauge_sccProgressWidth com.example.android.bluetoothlegatt:sccProgressWidth}</code></td><td></td></tr>
      * <tr><td><code>{@link #ScGauge_sccProgressWidths com.example.android.bluetoothlegatt:sccProgressWidths}</code></td><td></td></tr>
      * <tr><td><code>{@link #ScGauge_sccProgressWidthsMode com.example.android.bluetoothlegatt:sccProgressWidthsMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ScGauge_sccSnapToNotches com.example.android.bluetoothlegatt:sccSnapToNotches}</code></td><td>OPTIONS</td></tr>
-     * <tr><td><code>{@link #ScGauge_sccStrokeColor com.example.android.bluetoothlegatt:sccStrokeColor}</code></td><td>STROKE</td></tr>
+     * <tr><td><code>{@link #ScGauge_sccSnapToNotches com.example.android.bluetoothlegatt:sccSnapToNotches}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ScGauge_sccStrokeColor com.example.android.bluetoothlegatt:sccStrokeColor}</code></td><td></td></tr>
      * <tr><td><code>{@link #ScGauge_sccStrokeColors com.example.android.bluetoothlegatt:sccStrokeColors}</code></td><td></td></tr>
      * <tr><td><code>{@link #ScGauge_sccStrokeColorsMode com.example.android.bluetoothlegatt:sccStrokeColorsMode}</code></td><td></td></tr>
      * <tr><td><code>{@link #ScGauge_sccStrokePosition com.example.android.bluetoothlegatt:sccStrokePosition}</code></td><td></td></tr>
@@ -9228,8 +9219,8 @@ public final class R {
      * <tr><td><code>{@link #ScGauge_sccTextColors com.example.android.bluetoothlegatt:sccTextColors}</code></td><td></td></tr>
      * <tr><td><code>{@link #ScGauge_sccTextColorsMode com.example.android.bluetoothlegatt:sccTextColorsMode}</code></td><td></td></tr>
      * <tr><td><code>{@link #ScGauge_sccTextPosition com.example.android.bluetoothlegatt:sccTextPosition}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ScGauge_sccTextTokens com.example.android.bluetoothlegatt:sccTextTokens}</code></td><td>TEXT</td></tr>
-     * <tr><td><code>{@link #ScGauge_sccValue com.example.android.bluetoothlegatt:sccValue}</code></td><td>VALUES</td></tr>
+     * <tr><td><code>{@link #ScGauge_sccTextTokens com.example.android.bluetoothlegatt:sccTextTokens}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ScGauge_sccValue com.example.android.bluetoothlegatt:sccValue}</code></td><td></td></tr>
      * </table>
      * @see #ScGauge_sccDuration
      * @see #ScGauge_sccHighValue
@@ -9439,9 +9430,8 @@ public final class R {
      */
     public static final int ScGauge_sccLabelPosition=9;
     /**
-     * <p>
-     * @attr description
-     * LABEL
+     * <p>This symbol is the offset where the {@link com.example.android.bluetoothlegatt.R.attr#sccLabelText}
+     * attribute's value can be found in the {@link #ScGauge} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
@@ -9469,9 +9459,8 @@ public final class R {
      */
     public static final int ScGauge_sccLowValue=12;
     /**
-     * <p>
-     * @attr description
-     * NOTCHES
+     * <p>This symbol is the offset where the {@link com.example.android.bluetoothlegatt.R.attr#sccNotches}
+     * attribute's value can be found in the {@link #ScGauge} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
@@ -9625,9 +9614,8 @@ public final class R {
      */
     public static final int ScGauge_sccNotchesWidthsMode=24;
     /**
-     * <p>
-     * @attr description
-     * POINTER
+     * <p>This symbol is the offset where the {@link com.example.android.bluetoothlegatt.R.attr#sccPointerColor}
+     * attribute's value can be found in the {@link #ScGauge} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
@@ -9877,9 +9865,8 @@ public final class R {
      */
     public static final int ScGauge_sccProgressRoundedCap=43;
     /**
-     * <p>
-     * @attr description
-     * PROGRESS
+     * <p>This symbol is the offset where the {@link com.example.android.bluetoothlegatt.R.attr#sccProgressSize}
+     * attribute's value can be found in the {@link #ScGauge} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -9931,9 +9918,8 @@ public final class R {
      */
     public static final int ScGauge_sccProgressWidthsMode=47;
     /**
-     * <p>
-     * @attr description
-     * OPTIONS
+     * <p>This symbol is the offset where the {@link com.example.android.bluetoothlegatt.R.attr#sccSnapToNotches}
+     * attribute's value can be found in the {@link #ScGauge} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -9942,9 +9928,8 @@ public final class R {
      */
     public static final int ScGauge_sccSnapToNotches=48;
     /**
-     * <p>
-     * @attr description
-     * STROKE
+     * <p>This symbol is the offset where the {@link com.example.android.bluetoothlegatt.R.attr#sccStrokeColor}
+     * attribute's value can be found in the {@link #ScGauge} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
@@ -10133,9 +10118,8 @@ public final class R {
      */
     public static final int ScGauge_sccTextPosition=62;
     /**
-     * <p>
-     * @attr description
-     * TEXT
+     * <p>This symbol is the offset where the {@link com.example.android.bluetoothlegatt.R.attr#sccTextTokens}
+     * attribute's value can be found in the {@link #ScGauge} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
@@ -10144,9 +10128,8 @@ public final class R {
      */
     public static final int ScGauge_sccTextTokens=63;
     /**
-     * <p>
-     * @attr description
-     * VALUES
+     * <p>This symbol is the offset where the {@link com.example.android.bluetoothlegatt.R.attr#sccValue}
+     * attribute's value can be found in the {@link #ScGauge} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *

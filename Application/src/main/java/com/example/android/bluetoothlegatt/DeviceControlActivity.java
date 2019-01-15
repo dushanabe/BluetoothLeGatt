@@ -34,10 +34,17 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.os.Environment;
 
 import com.sccomponents.gauges.gr004.GR004;
 
 import java.util.List;
+import java.util.Date;
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.text.SimpleDateFormat;
 
 /**
  * For a given BLE device, this Activity provides the user interface to connect, display data,
@@ -60,7 +67,10 @@ public class DeviceControlActivity extends Activity {
     private TextView mCoundownText;
     private Button mStartButton;
     private CountDownTimer mCountdownTimer;
-    private long mTimeLeftInMilliseconds = 60000;
+    private BufferedWriter file;
+    private long mTestDurationInMilliseconds = 60000;
+    private long mTimeLeftInMilliseconds = mTestDurationInMilliseconds;
+    private long mTimeElapsedInMilliseconds = 0;
     private boolean mTimerRunning;
     private String mDeviceAddress;
     private BluetoothLeService mBluetoothLeService;
@@ -157,37 +167,42 @@ public class DeviceControlActivity extends Activity {
     public void startStop(){
         if(mTimerRunning){
             stopTimer();
+            stopRecording();
         } else {
             startTimer();
+            startRecording();
         }
     }
 
     public void startTimer(){
-        mCountdownTimer = new CountDownTimer(mTimeLeftInMilliseconds, 1000) {
+        mCountdownTimer = new CountDownTimer(mTimeLeftInMilliseconds, 500) {
             @Override
             public void onTick(long millisUntilFinished) {
                 mTimeLeftInMilliseconds = millisUntilFinished;
+                mTimeElapsedInMilliseconds = mTestDurationInMilliseconds - mTimeLeftInMilliseconds;
                 updateTimer();
             }
 
             @Override
             public void onFinish() {
-                // save values
+                stopTimer();
+                stopRecording();
             }
         }.start();
-        mStartButton.setText("Pause");
+        mStartButton.setText("Stop");
         mTimerRunning = true;
     }
 
     public void stopTimer(){
         mCountdownTimer.cancel();
-        mStartButton.setText("Resume");
+        mStartButton.setText("Start");
+        mTimeLeftInMilliseconds = 60000;
         mTimerRunning = false;
     }
 
     public void updateTimer(){
-        int minutes = (int) mTimeLeftInMilliseconds/60000;
-        int seconds = (int) mTimeLeftInMilliseconds % 60000/1000;
+        int minutes = (int) mTimeLeftInMilliseconds / 60000;
+        int seconds = (int) mTimeLeftInMilliseconds % 60000 / 1000;
         String timeLeftText;
 
         timeLeftText = "" + minutes;
@@ -196,7 +211,6 @@ public class DeviceControlActivity extends Activity {
         timeLeftText += seconds;
 
         mCoundownText.setText(timeLeftText);
-
     }
 
 
@@ -221,6 +235,7 @@ public class DeviceControlActivity extends Activity {
         super.onDestroy();
         unbindService(mServiceConnection);
         mBluetoothLeService = null;
+        stopRecording();
     }
 
     @Override
@@ -265,6 +280,16 @@ public class DeviceControlActivity extends Activity {
         if (data != null) {
             mDataField.setText(data);
             mGauge.setValue(Double.parseDouble(data));
+
+            int minutes = (int) mTimeElapsedInMilliseconds / 60000;
+            int seconds = (int) mTimeElapsedInMilliseconds % 60000 / 1000;
+            String timeElapsed;
+
+            timeElapsed = "" + minutes;
+            timeElapsed += ":";
+            if (seconds < 10) timeElapsed += "0";
+            timeElapsed += seconds;
+            write(timeElapsed, data);
         }
     }
 
@@ -304,12 +329,53 @@ public class DeviceControlActivity extends Activity {
                                     characteristic, true);
                         }
                     }
-
                 }
             }
         }
-
     }
+
+    private void startRecording() {
+        // Prepare data storage
+        File directory = Environment
+                .getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS);
+        SimpleDateFormat sdf = new SimpleDateFormat("MMMddyyyyHHmm");
+        Date currentdate = new Date(System.currentTimeMillis());
+        String name = "Exercise_" + sdf.format(currentdate) + ".csv";
+        File filename = new File(directory, name);
+        try {
+            file = new BufferedWriter(new FileWriter(filename));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        //filenameDisplay.setText(name);
+    }
+
+    private void stopRecording() {
+        try {
+            file.close();
+        } catch (IOException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
+    }
+
+    private void write(String tag, String value) {
+        if (file == null) {
+            return;
+        }
+
+        String line = tag + "," + value + "\n";
+
+        try {
+            file.write(line);
+        } catch (IOException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
+
+        //logDisplay.setText(line);
+    }
+
     private static IntentFilter makeGattUpdateIntentFilter() {
         final IntentFilter intentFilter = new IntentFilter();
         intentFilter.addAction(BluetoothLeService.ACTION_GATT_CONNECTED);
