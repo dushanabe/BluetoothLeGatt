@@ -1,4 +1,4 @@
-#Mon Oct 15 11:42:12 BST 2018
-base.0=C\:\\Users\\Dushan\\dev\\BluetoothLeGatt\\Application\\build\\intermediates\\transforms\\dexMerger\\release\\0
+#Thu Mar 21 12:00:31 GMT 2019
+base.0=C\:\\Users\\dusha\\dev\\BluetoothLeGatt\\Application\\build\\intermediates\\dex\\release\\mergeDexRelease\\out
 path.0=classes.dex
 renamed.0=classes.dex

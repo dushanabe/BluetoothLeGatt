@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Dushan\\dev\\BluetoothLeGatt\\Application\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-ky\\values-ky.xml",
+            "outputFile": "C:\\Users\\dusha\\dev\\BluetoothLeGatt\\Application\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-ky\\values-ky.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Dushan\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\8d372350e51d3121e504578d14ebd2ba\\res\\values-ky\\values-ky.xml",
+                    "source": "C:\\Users\\dusha\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\503707419e101c5af3d152d653fd88b1\\res\\values-ky\\values-ky.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Dushan\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\36d33f0d224c3de83503277779656615\\res\\values-ky\\values-ky.xml",
+                    "source": "C:\\Users\\dusha\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\dbe7a11782e5f3f0ffdaaa52336865dc\\res\\values-ky\\values-ky.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

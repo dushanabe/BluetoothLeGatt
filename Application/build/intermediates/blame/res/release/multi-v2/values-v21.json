@@ -1,29 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Dushan\\dev\\BluetoothLeGatt\\Application\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-v21\\values-v21.xml",
+            "outputFile": "C:\\Users\\dusha\\dev\\BluetoothLeGatt\\Application\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-v21\\values-v21.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Dushan\\dev\\BluetoothLeGatt\\Application\\src\\main\\res\\values-v21\\base-template-styles.xml",
-                    "from": {
-                        "startLines": "20",
-                        "startColumns": "4",
-                        "startOffsets": "697",
-                        "endLines": "21",
-                        "endColumns": "12",
-                        "endOffsets": "774"
-                    },
-                    "to": {
-                        "startLines": "279",
-                        "startColumns": "4",
-                        "startOffsets": "20424",
-                        "endLines": "280",
-                        "endColumns": "12",
-                        "endOffsets": "20500"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Dushan\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\36d33f0d224c3de83503277779656615\\res\\values-v21\\values-v21.xml",
+                    "source": "C:\\Users\\dusha\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\dbe7a11782e5f3f0ffdaaa52336865dc\\res\\values-v21\\values-v21.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,13",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
@@ -42,7 +23,26 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Dushan\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\8d372350e51d3121e504578d14ebd2ba\\res\\values-v21\\values-v21.xml",
+                    "source": "C:\\Users\\dusha\\dev\\BluetoothLeGatt\\Application\\src\\main\\res\\values-v21\\base-template-styles.xml",
+                    "from": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "697",
+                        "endLines": "21",
+                        "endColumns": "12",
+                        "endOffsets": "774"
+                    },
+                    "to": {
+                        "startLines": "279",
+                        "startColumns": "4",
+                        "startOffsets": "20424",
+                        "endLines": "280",
+                        "endColumns": "12",
+                        "endOffsets": "20500"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\dusha\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\503707419e101c5af3d152d653fd88b1\\res\\values-v21\\values-v21.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,17,19,20,21,22,24,26,27,28,29,30,32,34,36,38,40,42,43,48,50,52,53,54,56,58,59,60,61,62,63,107,110,154,157,160,162,164,166,169,171,174,175,176,179,180,181,182,183,184,187,188,190,192,194,196,200,202,203,204,205,207,211,213,215,216,217,218,219,221,222,223,233,234,235,247",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -61,7 +61,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Dushan\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.1.1.aar\\76a9915d635a823a154efe42433eaba9\\res\\values-v21\\values-v21.xml",
+                    "source": "C:\\Users\\dusha\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.1.1.aar\\3285f247f75d770bb592c5f08f03be87\\res\\values-v21\\values-v21.xml",
                     "from": {
                         "startLines": "2,5,8,11",
                         "startColumns": "4,4,4,4",

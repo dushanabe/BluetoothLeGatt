@@ -1,137 +1,144 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Dushan\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml:20:1-52:12
-INJECTED from C:\Users\Dushan\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml:20:1-52:12
-INJECTED from C:\Users\Dushan\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml:20:1-52:12
-MERGED from [com.android.support:support-v13:27.1.1] C:\Users\Dushan\.gradle\caches\transforms-1\files-1.1\support-v13-27.1.1.aar\dbf483573da59ec4300a0a814ccb4241\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Dushan\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\93f672282910f47d86a271e87a7e9183\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\Dushan\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.1.aar\1b542adc797180ff506b37ad2ea58053\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Dushan\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\8d372350e51d3121e504578d14ebd2ba\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Dushan\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\192964a7d60383ca44e1bf0539860750\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Dushan\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\76a9915d635a823a154efe42433eaba9\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Dushan\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\062518118f33b532fc42b65f7a030b67\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Dushan\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\bf436da18917949d8883e9741984421f\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Dushan\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\b84a95fe6de0dd1f64534817e051cc33\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Dushan\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\ea04972935dc81e298b015c923b6f4ce\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Dushan\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\62647507543c1e156500507968e022f1\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Dushan\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\36d33f0d224c3de83503277779656615\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Dushan\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\749c0e112849d2d4914ca44f90d47d37\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Dushan\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\38dba754edb5580afaabe8dcd35c6ce7\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Dushan\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\40b6c19fff46e36894e514a406b7accc\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Dushan\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\9c020612f9ee82776d4ed0b6b71bab8d\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\Dushan\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml:20:1-52:12
-INJECTED from C:\Users\Dushan\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml:20:1-52:12
+ADDED from C:\Users\dusha\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml:20:1-53:12
+INJECTED from C:\Users\dusha\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml:20:1-53:12
+INJECTED from C:\Users\dusha\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml:20:1-53:12
+MERGED from [com.android.support:support-v13:27.1.1] C:\Users\dusha\.gradle\caches\transforms-1\files-1.1\support-v13-27.1.1.aar\86a3dea85a1340306e8d7caf8442032a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\dusha\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\cec98276d4b3a781ea982e7c8f97adc6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\dusha\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.1.aar\1f2be5e42a93e983940feff313fd37ab\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\dusha\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\503707419e101c5af3d152d653fd88b1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\dusha\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\3efa90a92eda569b6b232dca985ea0ce\AndroidManifest.xml:17:1-22:12
+MERGED from [:GR] C:\Users\dusha\.gradle\caches\transforms-1\files-1.1\library-release.aar\0cafc134e505eb26e5e0af0d4c98cf9f\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\dusha\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\3285f247f75d770bb592c5f08f03be87\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\dusha\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\ceacf7719be20622dd50f0d1fec7e6a5\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\dusha\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\64930d9c1cf8405a1342e011e3be8bcd\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\dusha\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\f303a1483ed63649da36b7e4f536ff8c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\dusha\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\0998b6ddfc02ba9ebd21f636cdaa3084\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\dusha\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\a112154ad531e7338049fab9e247b938\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\dusha\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\dbe7a11782e5f3f0ffdaaa52336865dc\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\dusha\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\778a4ce32b9c7a203ecff21f44bca06d\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\dusha\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\37b12f9dbc3f482526182596680fe43f\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\dusha\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\5d980a9bc1fbc8d09544f5524c0bfaae\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\dusha\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\c3dcb1a98136fcb58001c955cef2c7d3\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\dusha\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml:20:1-53:12
+INJECTED from C:\Users\dusha\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml:20:1-53:12
 	package
-		ADDED from C:\Users\Dushan\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml:21:5-50
+		ADDED from C:\Users\dusha\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml:21:5-50
 	android:versionName
-		ADDED from C:\Users\Dushan\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml:23:5-30
-		INJECTED from C:\Users\Dushan\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Dushan\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml
+		ADDED from C:\Users\dusha\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml:23:5-30
+		INJECTED from C:\Users\dusha\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\dusha\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\Dushan\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml:20:11-69
+		ADDED from C:\Users\dusha\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml:20:11-69
 	android:versionCode
-		ADDED from C:\Users\Dushan\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml:22:5-28
-		INJECTED from C:\Users\Dushan\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Dushan\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml
+		ADDED from C:\Users\dusha\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml:22:5-28
+		INJECTED from C:\Users\dusha\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\dusha\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml
 uses-feature#android.hardware.bluetooth_le
-ADDED from C:\Users\Dushan\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml:31:5-89
+ADDED from C:\Users\dusha\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml:31:5-89
 	android:required
-		ADDED from C:\Users\Dushan\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml:31:64-87
+		ADDED from C:\Users\dusha\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml:31:64-87
 	android:name
-		ADDED from C:\Users\Dushan\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml:31:19-63
+		ADDED from C:\Users\dusha\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml:31:19-63
 uses-permission#android.permission.BLUETOOTH
-ADDED from C:\Users\Dushan\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml:33:5-67
+ADDED from C:\Users\dusha\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml:33:5-67
 	android:name
-		ADDED from C:\Users\Dushan\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml:33:22-65
+		ADDED from C:\Users\dusha\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml:33:22-65
 uses-permission#android.permission.BLUETOOTH_ADMIN
-ADDED from C:\Users\Dushan\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml:34:5-73
+ADDED from C:\Users\dusha\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml:34:5-73
 	android:name
-		ADDED from C:\Users\Dushan\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml:34:22-71
+		ADDED from C:\Users\dusha\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml:34:22-71
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\dusha\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml:35:5-80
+	android:name
+		ADDED from C:\Users\dusha\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml:35:22-78
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from C:\Users\Dushan\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml:35:5-81
+ADDED from C:\Users\dusha\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml:36:5-81
 	android:name
-		ADDED from C:\Users\Dushan\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml:35:22-78
+		ADDED from C:\Users\dusha\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml:36:22-78
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from C:\Users\Dushan\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml:36:5-79
+ADDED from C:\Users\dusha\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml:37:5-79
 	android:name
-		ADDED from C:\Users\Dushan\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml:36:22-76
+		ADDED from C:\Users\dusha\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml:37:22-76
 application
-ADDED from C:\Users\Dushan\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml:38:5-50:19
+ADDED from C:\Users\dusha\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml:39:5-51:19
 	android:label
-		ADDED from C:\Users\Dushan\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml:38:18-50
+		ADDED from C:\Users\dusha\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml:39:18-50
 	android:icon
-		ADDED from C:\Users\Dushan\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml:39:9-45
+		ADDED from C:\Users\dusha\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml:40:9-45
 	android:theme
-		ADDED from C:\Users\Dushan\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml:40:9-56
+		ADDED from C:\Users\dusha\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml:41:9-56
 activity#com.example.android.bluetoothlegatt.DeviceScanActivity
-ADDED from C:\Users\Dushan\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml:41:9-47:20
+ADDED from C:\Users\dusha\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml:42:9-48:20
 	android:label
-		ADDED from C:\Users\Dushan\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml:42:13-45
+		ADDED from C:\Users\dusha\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml:43:13-45
 	android:name
-		ADDED from C:\Users\Dushan\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml:41:19-53
+		ADDED from C:\Users\dusha\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml:42:19-53
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Dushan\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml:43:13-46:29
+ADDED from C:\Users\dusha\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml:44:13-47:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Dushan\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml:44:17-68
+ADDED from C:\Users\dusha\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml:45:17-68
 	android:name
-		ADDED from C:\Users\Dushan\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml:44:25-66
+		ADDED from C:\Users\dusha\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml:45:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Dushan\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml:45:17-76
+ADDED from C:\Users\dusha\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml:46:17-76
 	android:name
-		ADDED from C:\Users\Dushan\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml:45:27-74
+		ADDED from C:\Users\dusha\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml:46:27-74
 activity#com.example.android.bluetoothlegatt.DeviceControlActivity
-ADDED from C:\Users\Dushan\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml:48:9-58
+ADDED from C:\Users\dusha\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml:49:9-58
 	android:name
-		ADDED from C:\Users\Dushan\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml:48:19-56
+		ADDED from C:\Users\dusha\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml:49:19-56
 service#com.example.android.bluetoothlegatt.BluetoothLeService
-ADDED from C:\Users\Dushan\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml:49:9-77
+ADDED from C:\Users\dusha\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml:50:9-77
 	android:enabled
-		ADDED from C:\Users\Dushan\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml:49:53-75
+		ADDED from C:\Users\dusha\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml:50:53-75
 	android:name
-		ADDED from C:\Users\Dushan\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml:49:18-52
+		ADDED from C:\Users\dusha\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml:50:18-52
 uses-sdk
-INJECTED from C:\Users\Dushan\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\Dushan\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml
-INJECTED from C:\Users\Dushan\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml
-MERGED from [com.android.support:support-v13:27.1.1] C:\Users\Dushan\.gradle\caches\transforms-1\files-1.1\support-v13-27.1.1.aar\dbf483573da59ec4300a0a814ccb4241\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v13:27.1.1] C:\Users\Dushan\.gradle\caches\transforms-1\files-1.1\support-v13-27.1.1.aar\dbf483573da59ec4300a0a814ccb4241\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Dushan\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\93f672282910f47d86a271e87a7e9183\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Dushan\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\93f672282910f47d86a271e87a7e9183\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\Dushan\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.1.aar\1b542adc797180ff506b37ad2ea58053\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\Dushan\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.1.aar\1b542adc797180ff506b37ad2ea58053\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Dushan\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\8d372350e51d3121e504578d14ebd2ba\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Dushan\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\8d372350e51d3121e504578d14ebd2ba\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Dushan\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\192964a7d60383ca44e1bf0539860750\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Dushan\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\192964a7d60383ca44e1bf0539860750\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Dushan\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\76a9915d635a823a154efe42433eaba9\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Dushan\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\76a9915d635a823a154efe42433eaba9\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Dushan\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\062518118f33b532fc42b65f7a030b67\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Dushan\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\062518118f33b532fc42b65f7a030b67\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Dushan\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\bf436da18917949d8883e9741984421f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Dushan\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\bf436da18917949d8883e9741984421f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Dushan\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\b84a95fe6de0dd1f64534817e051cc33\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Dushan\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\b84a95fe6de0dd1f64534817e051cc33\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Dushan\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\ea04972935dc81e298b015c923b6f4ce\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Dushan\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\ea04972935dc81e298b015c923b6f4ce\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Dushan\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\62647507543c1e156500507968e022f1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Dushan\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\62647507543c1e156500507968e022f1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Dushan\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\36d33f0d224c3de83503277779656615\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Dushan\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\36d33f0d224c3de83503277779656615\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Dushan\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\749c0e112849d2d4914ca44f90d47d37\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Dushan\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\749c0e112849d2d4914ca44f90d47d37\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Dushan\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\38dba754edb5580afaabe8dcd35c6ce7\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Dushan\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\38dba754edb5580afaabe8dcd35c6ce7\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Dushan\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\40b6c19fff46e36894e514a406b7accc\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Dushan\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\40b6c19fff46e36894e514a406b7accc\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Dushan\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\9c020612f9ee82776d4ed0b6b71bab8d\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Dushan\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\9c020612f9ee82776d4ed0b6b71bab8d\AndroidManifest.xml:20:5-44
-INJECTED from C:\Users\Dushan\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml
-INJECTED from C:\Users\Dushan\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml
+INJECTED from C:\Users\dusha\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\dusha\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml
+INJECTED from C:\Users\dusha\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml
+MERGED from [com.android.support:support-v13:27.1.1] C:\Users\dusha\.gradle\caches\transforms-1\files-1.1\support-v13-27.1.1.aar\86a3dea85a1340306e8d7caf8442032a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v13:27.1.1] C:\Users\dusha\.gradle\caches\transforms-1\files-1.1\support-v13-27.1.1.aar\86a3dea85a1340306e8d7caf8442032a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\dusha\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\cec98276d4b3a781ea982e7c8f97adc6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\dusha\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\cec98276d4b3a781ea982e7c8f97adc6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\dusha\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.1.aar\1f2be5e42a93e983940feff313fd37ab\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\dusha\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.1.aar\1f2be5e42a93e983940feff313fd37ab\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\dusha\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\503707419e101c5af3d152d653fd88b1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\dusha\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\503707419e101c5af3d152d653fd88b1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\dusha\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\3efa90a92eda569b6b232dca985ea0ce\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\dusha\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\3efa90a92eda569b6b232dca985ea0ce\AndroidManifest.xml:20:5-44
+MERGED from [:GR] C:\Users\dusha\.gradle\caches\transforms-1\files-1.1\library-release.aar\0cafc134e505eb26e5e0af0d4c98cf9f\AndroidManifest.xml:7:5-9:41
+MERGED from [:GR] C:\Users\dusha\.gradle\caches\transforms-1\files-1.1\library-release.aar\0cafc134e505eb26e5e0af0d4c98cf9f\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\dusha\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\3285f247f75d770bb592c5f08f03be87\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\dusha\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\3285f247f75d770bb592c5f08f03be87\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\dusha\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\ceacf7719be20622dd50f0d1fec7e6a5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\dusha\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\ceacf7719be20622dd50f0d1fec7e6a5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\dusha\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\64930d9c1cf8405a1342e011e3be8bcd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\dusha\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\64930d9c1cf8405a1342e011e3be8bcd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\dusha\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\f303a1483ed63649da36b7e4f536ff8c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\dusha\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\f303a1483ed63649da36b7e4f536ff8c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\dusha\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\0998b6ddfc02ba9ebd21f636cdaa3084\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\dusha\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\0998b6ddfc02ba9ebd21f636cdaa3084\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\dusha\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\a112154ad531e7338049fab9e247b938\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\dusha\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\a112154ad531e7338049fab9e247b938\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\dusha\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\dbe7a11782e5f3f0ffdaaa52336865dc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\dusha\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\dbe7a11782e5f3f0ffdaaa52336865dc\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\dusha\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\778a4ce32b9c7a203ecff21f44bca06d\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\dusha\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\778a4ce32b9c7a203ecff21f44bca06d\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\dusha\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\37b12f9dbc3f482526182596680fe43f\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\dusha\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\37b12f9dbc3f482526182596680fe43f\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\dusha\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\5d980a9bc1fbc8d09544f5524c0bfaae\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\dusha\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\5d980a9bc1fbc8d09544f5524c0bfaae\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\dusha\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\c3dcb1a98136fcb58001c955cef2c7d3\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\dusha\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\c3dcb1a98136fcb58001c955cef2c7d3\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\dusha\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml
+INJECTED from C:\Users\dusha\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\Dushan\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Dushan\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Dushan\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\dusha\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml
+		ADDED from C:\Users\dusha\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\dusha\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\Dushan\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Dushan\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Dushan\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\dusha\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml
+		ADDED from C:\Users\dusha\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\dusha\dev\BluetoothLeGatt\Application\src\main\AndroidManifest.xml

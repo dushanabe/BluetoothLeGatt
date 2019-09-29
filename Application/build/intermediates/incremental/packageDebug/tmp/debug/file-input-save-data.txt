@@ -1,27 +1,15 @@
 #Internal package file, do not edit.
-#Tue Nov 20 11:58:05 GMT 2018
-2.base=C\:\\Users\\Dushan\\dev\\BluetoothLeGatt\\Application\\build\\intermediates\\transforms\\dexMerger\\debug\\1
-5.set=DEX
-0.path=classes.dex
-2.baseType=DIRECTORY
-3.base=C\:\\Users\\Dushan\\dev\\BluetoothLeGatt\\Application\\build\\intermediates\\transforms\\dexMerger\\debug\\0
-2.set=DEX
-1.path=classes.dex
-4.base=C\:\\Users\\Dushan\\dev\\BluetoothLeGatt\\Application\\build\\intermediates\\transforms\\dexMerger\\debug\\3
-count=6
-5.baseType=DIRECTORY
-2.path=classes.dex
-5.base=C\:\\Users\\Dushan\\dev\\BluetoothLeGatt\\Application\\build\\intermediates\\transforms\\dexMerger\\debug\\5
-4.set=DEX
-3.path=classes.dex
-3.baseType=DIRECTORY
-1.set=DEX
-4.path=classes.dex
-1.baseType=DIRECTORY
-5.path=classes.dex
-0.base=C\:\\Users\\Dushan\\dev\\BluetoothLeGatt\\Application\\build\\intermediates\\transforms\\dexMerger\\debug\\2
+#Sun Mar 17 15:25:03 GMT 2019
+1.base=C\:\\Users\\dusha\\dev\\BluetoothLeGatt\\Application\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out
+2.path=classes_0.dex
 0.baseType=DIRECTORY
-3.set=DEX
-1.base=C\:\\Users\\Dushan\\dev\\BluetoothLeGatt\\Application\\build\\intermediates\\transforms\\dexMerger\\debug\\4
-4.baseType=DIRECTORY
+2.base=C\:\\Users\\dusha\\dev\\BluetoothLeGatt\\Application\\build\\intermediates\\dex\\debug\\mergeLibDexDebug\\out
+2.set=DEX
+1.baseType=DIRECTORY
+count=3
+1.set=DEX
+0.path=classes.dex
 0.set=DEX
+0.base=C\:\\Users\\dusha\\dev\\BluetoothLeGatt\\Application\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out
+2.baseType=DIRECTORY
+1.path=classes.dex

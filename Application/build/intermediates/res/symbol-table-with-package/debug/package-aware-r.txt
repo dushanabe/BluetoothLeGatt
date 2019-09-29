@@ -765,6 +765,7 @@ id device_address
 id device_name
 id disableHome
 id draw
+id duration_sec
 id edit_query
 id end
 id end_padder
@@ -962,6 +963,7 @@ string app_name
 string ble_not_supported
 string connected
 string disconnected
+string duration
 string error_bluetooth_not_supported
 string intro_message
 string label_data

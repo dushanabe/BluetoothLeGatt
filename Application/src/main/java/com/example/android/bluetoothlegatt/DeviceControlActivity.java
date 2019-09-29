@@ -28,11 +28,14 @@ import android.content.ServiceConnection;
 import android.os.Bundle;
 import android.os.CountDownTimer;
 import android.os.IBinder;
+import android.text.Editable;
+import android.text.TextWatcher;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
 import android.os.Environment;
 
@@ -65,10 +68,11 @@ public class DeviceControlActivity extends Activity {
     private GR004 mGauge;
     private String mDeviceName;
     private TextView mCoundownText;
+    private EditText mTestLength;
     private Button mStartButton;
     private CountDownTimer mCountdownTimer;
     private BufferedWriter file;
-    private long mTestDurationInMilliseconds = 60000;
+    private long mTestDurationInMilliseconds = 120000;
     private long mTimeLeftInMilliseconds = mTestDurationInMilliseconds;
     private long mTimeElapsedInMilliseconds = 0;
     private boolean mTimerRunning;
@@ -143,6 +147,7 @@ public class DeviceControlActivity extends Activity {
         //((TextView) findViewById(R.id.device_address)).setText(mDeviceAddress);
         //mGattServicesList = findViewById(R.id.gatt_services_list);
         //mGattServicesList.setOnChildClickListener(servicesListClickListner);
+        mTestLength = findViewById(R.id.duration_sec);
         mCoundownText = findViewById(R.id.countdown_text);
         mStartButton = findViewById(R.id.start_button);
         mConnectionState = findViewById(R.id.connection_state);
@@ -161,14 +166,39 @@ public class DeviceControlActivity extends Activity {
                 startStop();
             }
         });
+        mStartButton.setEnabled(false);
+
+
+        mTestLength.addTextChangedListener(new TextWatcher() {
+            @Override
+            public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {
+                mStartButton.setEnabled(false);
+            }
+
+            @Override
+            public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
+
+            }
+
+            @Override
+            public void afterTextChanged(Editable editable) {
+                mStartButton.setEnabled(true);
+            }
+        });
 
     }
 
     public void startStop(){
         if(mTimerRunning){
+            mTestLength.setEnabled(true);
             stopTimer();
             stopRecording();
         } else {
+            mTestLength.setEnabled(false);
+            String sTextFromTestLength = mTestLength.getText().toString().trim();
+            int iTestLength = Integer.valueOf(sTextFromTestLength);
+            mTestDurationInMilliseconds = iTestLength * 1000;
+            mTimeLeftInMilliseconds = mTestDurationInMilliseconds;
             startTimer();
             startRecording();
         }
@@ -196,7 +226,7 @@ public class DeviceControlActivity extends Activity {
     public void stopTimer(){
         mCountdownTimer.cancel();
         mStartButton.setText("Start");
-        mTimeLeftInMilliseconds = 60000;
+        mTimeLeftInMilliseconds = mTestDurationInMilliseconds;
         mTimerRunning = false;
     }
 
@@ -282,13 +312,13 @@ public class DeviceControlActivity extends Activity {
             mGauge.setValue(Double.parseDouble(data));
 
             int minutes = (int) mTimeElapsedInMilliseconds / 60000;
-            int seconds = (int) mTimeElapsedInMilliseconds % 60000 / 1000;
+            float seconds = (float) mTimeElapsedInMilliseconds % 60000 / 1000;
             String timeElapsed;
 
             timeElapsed = "" + minutes;
             timeElapsed += ":";
             if (seconds < 10) timeElapsed += "0";
-            timeElapsed += seconds;
+            timeElapsed += String.format("%.1f", seconds);
             write(timeElapsed, data);
         }
     }
